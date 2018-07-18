@@ -1,0 +1,40 @@
+{
+  "name": "generator-kratos-boilerplate",
+  "version": "1.0.0",
+  "description": "Yeoman generator for Kratos Boilerplate.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/generator-kratos-boilerplate#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coverage": "jest --colors --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "jest": "jest --colors --verbose",
+    "lint": "eslint src/**/*.js test/**/*.js",
+    "start": "node src/index.js",
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/generator-kratos-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/generator-kratos-boilerplate/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "23.3.0",
+    "coveralls": "3.0.2",
+    "eslint": "5.1.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "jest": "23.4.0",
+    "prettier": "1.13.7"
+  },
+  "license": "MIT"
+}
