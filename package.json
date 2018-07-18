@@ -5,18 +5,15 @@
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/generator-kratos-boilerplate#readme",
   "keywords": [
-    "node"
+    "yeoman",
+    "yeoman-generator"
   ],
-  "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "main": "generators/app/index.js",
   "scripts": {
     "coverage": "jest --colors --coverage",
     "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
     "jest": "jest --colors --verbose",
-    "lint": "eslint src/**/*.js test/**/*.js",
-    "start": "node src/index.js",
+    "lint": "eslint generators/**/*.js test/**/*.js",
     "test": "npm run lint && npm run jest"
   },
   "repository": {
@@ -26,7 +23,9 @@
   "bugs": {
     "url": "https://github.com/robertoachar/generator-kratos-boilerplate/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "yeoman-generator": "3.0.0"
+  },
   "devDependencies": {
     "@types/jest": "23.3.0",
     "coveralls": "3.0.2",
@@ -34,7 +33,9 @@
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.2",
     "jest": "23.4.0",
-    "prettier": "1.13.7"
+    "prettier": "1.13.7",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "1.8.0"
   },
   "license": "MIT"
 }

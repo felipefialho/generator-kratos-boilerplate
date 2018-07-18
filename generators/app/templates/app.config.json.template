@@ -1,0 +1,10 @@
+{
+	"title": "<%= project %>",
+	"description": "<%= description %>",
+	"url": "https://github.com/<%= github %>/<%= project %>",
+	"logo": "images/logo.png",
+	"theme_color": "#333333",
+	"short_name": "<%= project %>",
+	"ga": "x",
+	"twitter": "@<%= twitter %>"
+}
