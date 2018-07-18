@@ -33,7 +33,9 @@
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.2",
     "jest": "23.4.0",
-    "prettier": "1.13.7"
+    "prettier": "1.13.7",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "1.8.0"
   },
   "license": "MIT"
 }
