@@ -71,3 +71,6 @@ typings/
 
 # Serverless directories
 .serverless
+ 
+# Remove trash files
+.DS_Store 
