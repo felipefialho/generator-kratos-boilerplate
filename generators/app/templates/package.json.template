@@ -1,6 +1,6 @@
 {
   "name": "<%= project %>",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "title": "<%= project %>",
   "description": "<%= description %>",
   "homepage": "https://github.com/<%= github %>/<%= project %>",
@@ -17,12 +17,10 @@
     "build": "webpack --mode production",
     "deploy": "gh-pages-deploy",
     "analyzer": "npm run build && webpack-bundle-analyzer ./dist/stats.json",
-    "lint": "npm run lint:js && npm run lint:styl",
-    "lint:styl": "stylint ./src",
+    "lint": "npm run lint:js && npm run lint:scss",
     "lint:scss": "sass-lint -c sass-lint.json 'src/**/*.scss' -v -q",
     "lint:js": "eslint ./src/",
-    "fix:js": "eslint ./src/ --fix",
-    "precommit": "npm run lint"
+    "fix:js": "eslint ./src/ --fix"
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
@@ -32,5 +30,10 @@
     "noprompt": true
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
 }
