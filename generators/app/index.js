@@ -125,8 +125,6 @@ module.exports = class extends Generator {
         'sass-lint',
         'sass-loader',
         'style-loader',
-        'stylus',
-        'stylus-loader',
         'uglifyjs-webpack-plugin',
         'webpack',
         'webpack-bundle-analyzer',
