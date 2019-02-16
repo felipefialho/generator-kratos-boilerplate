@@ -66,13 +66,6 @@ $ npm install
 
 [MIT](https://github.com/lfeh/generator-kratos-boilerplate/blob/master/LICENSE)
 
-[travis-badge]: https://travis-ci.org/lfeh/generator-kratos-boilerplate.svg?branch=master
-[travis-url]: https://travis-ci.org/lfeh/generator-kratos-boilerplate
-[appveyor-badge]: https://ci.appveyor.com/api/projects/status/github/lfeh/generator-kratos-boilerplate?branch=master&svg=true
-[appveyor-url]: https://ci.appveyor.com/project/lfeh/generator-kratos-boilerplate
-[circleci-badge]: https://circleci.com/gh/lfeh/generator-kratos-boilerplate/tree/master.svg?style=shield 
-[coveralls-badge]: https://coveralls.io/repos/github/lfeh/generator-kratos-boilerplate/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/lfeh/generator-kratos-boilerplate?branch=master
 [npm-badge]: https://img.shields.io/npm/v/generator-kratos-boilerplate.svg
 [npm-url]: https://www.npmjs.com/package/generator-kratos-boilerplate
 [license-badge]: https://img.shields.io/github/license/lfeh/generator-kratos-boilerplate.svg
