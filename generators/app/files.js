@@ -8,16 +8,40 @@ module.exports = [
     destination: 'src/js/main.js'
   },
   {
-    template: 'src/styl/variables.styl.template',
-    destination: 'src/styl/variables.styl'
+    template: 'src/styles/variables.scss.template',
+    destination: 'src/styles/variables.scss'
+  },
+  {
+    template: 'src/styles/core.scss.template',
+    destination: 'src/styles/core.scss'
+  },
+  {
+    template: 'src/styles/reset.scss.template',
+    destination: 'src/styles/reset.scss'
+  },
+  {
+    template: 'src/styles/palettes.scss.template',
+    destination: 'src/styles/palettes.scss'
   },
   {
     template: 'src/app.js.template',
     destination: 'src/app.js'
   },
   {
-    template: 'src/app.styl.template',
-    destination: 'src/app.styl'
+    template: 'src/app.scss.template',
+    destination: 'src/app.scss'
+  },
+  {
+    template: 'src/components/welcome/welcome.js.template',
+    destination: 'src/components/welcome/welcome.js'
+  },
+  {
+    template: 'src/components/welcome/welcome.pug.template',
+    destination: 'src/components/welcome/welcome.pug'
+  },
+  {
+    template: 'src/components/welcome/welcome.scss.template',
+    destination: 'src/components/welcome/welcome.scss'
   },
   {
     template: 'src/favicon.ico.template',
@@ -38,10 +62,6 @@ module.exports = [
   {
     template: '.gitignore.template',
     destination: '.gitignore'
-  },
-  {
-    template: '.stylintrc.template',
-    destination: '.stylintrc'
   },
   {
     template: '.travis.yml.template',
