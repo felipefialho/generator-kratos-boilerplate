@@ -1,5 +1,5 @@
 - var css = require('./welcome-css.json');
 
 section(class=css.host)
-  h1(class=css.title) Kratos Boilerplate
-  article(class=css.description) A simple boilerplate for creating a static PWA using Webpack, Pug, PostCSS and CSS Modules
+  h1(class=css.title)  🚀 This was generated using the Kratos Boilerplate
+  article(class=css.description) You can check the #[a(href="https://github.com/LFeh/kratos-boilerplate" target="_blank") official repository] or #[a(href="https://twitter.com/LFeh" target="_blank") follow me] on Twitter.
