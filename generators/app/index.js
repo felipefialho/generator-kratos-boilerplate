@@ -6,7 +6,7 @@ const validate = require('./validate');
 module.exports = class extends Generator {
   initializing() {
     this.log('Kratos Boilerplate Generator');
-    this.log('❤️  Made with love by Felipe Fialho');
+    this.log('❤️ Made with love by Felipe Fialho');
     this.log();
   }
 
@@ -95,6 +95,8 @@ module.exports = class extends Generator {
 
     this.npmInstall(
       [
+        '@babel/core',
+        '@babel/preset-env',
         'autoprefixer',
         'babel-core',
         'babel-loader',
@@ -107,6 +109,7 @@ module.exports = class extends Generator {
         'file-loader',
         'gh-pages-deploy',
         'html-webpack-plugin',
+        'husky',
         'imagemin-webpack-plugin',
         'lost',
         'mini-css-extract-plugin',
@@ -114,15 +117,14 @@ module.exports = class extends Generator {
         'offline-plugin',
         'postcss-font-magician',
         'postcss-loader',
+        'postcss-modules',
         'pug',
         'pug-loader',
         'rucksack-css',
-        'rupture',
         'rupture-sass',
         'sass-lint',
         'sass-loader',
         'style-loader',
-        'stylint',
         'stylus',
         'stylus-loader',
         'uglifyjs-webpack-plugin',
