@@ -6,7 +6,7 @@ const validate = require('./validate');
 module.exports = class extends Generator {
   initializing() {
     this.log('Kratos Boilerplate Generator');
-    this.log('❤️ Made with love by Felipe Fialho');
+    this.log('❤️  Made with love by Felipe Fialho');
     this.log();
   }
 
