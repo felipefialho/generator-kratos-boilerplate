@@ -1,9 +1,9 @@
 {
   "name": "generator-kratos-boilerplate",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Yeoman generator for Kratos Boilerplate.",
-  "author": "Roberto Achar <robertoachar@gmail.com>",
-  "homepage": "https://github.com/robertoachar/generator-kratos-boilerplate#readme",
+  "author": "Roberto Achar <robertoachar@gmail.com>, Felipe Fialho <hi@felipefialho.com>",
+  "homepage": "https://github.com/lfeh/generator-kratos-boilerplate#readme",
   "keywords": [
     "yeoman",
     "yeoman-generator"
@@ -15,27 +15,27 @@
     "jest": "jest --colors --verbose",
     "lint": "eslint generators/**/*.js test/**/*.js",
     "test": "npm run lint && npm run jest"
-  },
+  },  
   "repository": {
     "type": "git",
-    "url": "https://github.com/robertoachar/generator-kratos-boilerplate.git"
+    "url": "https://github.com/lfeh/generator-kratos-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/robertoachar/generator-kratos-boilerplate/issues"
+    "url": "https://github.com/lfeh/generator-kratos-boilerplate/issues"
   },
   "dependencies": {
-    "yeoman-generator": "3.0.0"
+    "yeoman-generator": "3.2.0"
   },
   "devDependencies": {
-    "@types/jest": "23.3.0",
+    "@types/jest": "24.0.5",
     "coveralls": "3.0.2",
-    "eslint": "5.1.0",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-prettier": "2.6.2",
-    "jest": "23.4.0",
-    "prettier": "1.13.7",
+    "eslint": "5.14.0",
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "jest": "24.1.0",
+    "prettier": "1.16.4",
     "yeoman-assert": "3.1.1",
-    "yeoman-test": "1.8.0"
+    "yeoman-test": "1.9.1"
   },
   "license": "MIT"
 }
