@@ -44,6 +44,10 @@ module.exports = [
     destination: 'src/components/welcome/welcome.scss'
   },
   {
+    template: 'src/components/welcome/welcome-css.json.template',
+    destination: 'src/components/welcome/welcome-css.json'
+  },
+  {
     template: 'src/favicon.ico.template',
     destination: 'src/favicon.ico'
   },
