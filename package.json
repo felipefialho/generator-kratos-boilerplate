@@ -1,6 +1,6 @@
 {
   "name": "generator-kratos-boilerplate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Yeoman generator for Kratos Boilerplate.",
   "author": "Roberto Achar <robertoachar@gmail.com>, Felipe Fialho <hi@felipefialho.com>",
   "homepage": "https://github.com/lfeh/generator-kratos-boilerplate#readme",
@@ -15,7 +15,7 @@
     "jest": "jest --colors --verbose",
     "lint": "eslint generators/**/*.js test/**/*.js",
     "test": "npm run lint && npm run jest"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/lfeh/generator-kratos-boilerplate.git"
