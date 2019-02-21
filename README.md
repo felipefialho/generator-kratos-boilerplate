@@ -60,7 +60,7 @@ $ npm install
 ## Author
 
 - [Roberto Achar](https://twitter.com/robertoachar)
-- [Felipe Fialho](https://twitter.com/felipefialho)
+- [Felipe Fialho](https://twitter.com/felipefialho_)
 
 ## License
 
