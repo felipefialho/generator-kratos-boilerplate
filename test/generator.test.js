@@ -13,8 +13,8 @@ describe('Generator Tests', () => {
         description: 'An awesome project',
         name: 'Felipe Fialho',
         email: 'hi@felipefialho.com',
-        github: 'LFeh',
-        twitter: 'LFeh'
+        github: 'felipefialho',
+        twitter: 'felipefialho_'
       })
       .on('end', done);
   });

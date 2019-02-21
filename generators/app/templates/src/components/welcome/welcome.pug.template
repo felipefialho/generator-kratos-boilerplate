@@ -2,4 +2,4 @@
 
 section(class=css.host)
   h1(class=css.title)  🚀 This was generated using the Kratos Boilerplate
-  article(class=css.description) You can check the #[a(href="https://github.com/LFeh/kratos-boilerplate" target="_blank") official repository] or #[a(href="https://twitter.com/LFeh" target="_blank") follow me] on Twitter.
+  article(class=css.description) You can check the #[a(href="https://github.com/felipefialho/kratos-boilerplate" target="_blank") official repository] or #[a(href="https://twitter.com/felipefialho" target="_blank") follow me] on Twitter.

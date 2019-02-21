@@ -28,7 +28,7 @@ describe('Validate Tests', () => {
   });
 
   it('should return true with GitHub username', (done) => {
-    const message = validate.validateGitHub('LFeh');
+    const message = validate.validateGitHub('felipefialho');
     assert.equal(message, true);
     done();
   });
@@ -40,7 +40,7 @@ describe('Validate Tests', () => {
   });
 
   it('should return true with Twitter username', (done) => {
-    const message = validate.validateTwitter('LFeh');
+    const message = validate.validateTwitter('felipefialho_');
     assert.equal(message, true);
     done();
   });
