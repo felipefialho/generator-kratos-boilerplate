@@ -6,7 +6,7 @@
 
 > <%= description %>
 
-[![license](https://img.shields.io/github/license/<%= github %>/<%= project %>.svg)](./license.md)
+[![license](https://img.shields.io/github/license/<%= github %>/<%= project %>.svg)](./license)
 [![GitHub contributors](https://img.shields.io/github/contributors/<%= github %>/<%= project %>.svg)](https://github.com/<%= github %>/<%= project %>/graphs/contributors)
 
 ## Getting Started
