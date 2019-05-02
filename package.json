@@ -27,13 +27,13 @@
     "yeoman-generator": "3.2.0"
   },
   "devDependencies": {
-    "@types/jest": "24.0.5",
-    "coveralls": "3.0.2",
-    "eslint": "5.14.0",
-    "eslint-config-prettier": "4.0.0",
+    "@types/jest": "24.0.12",
+    "coveralls": "3.0.3",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "4.2.0",
     "eslint-plugin-prettier": "3.0.1",
-    "jest": "24.1.0",
-    "prettier": "1.16.4",
+    "jest": "24.7.1",
+    "prettier": "1.17.0",
     "yeoman-assert": "3.1.1",
     "yeoman-test": "1.9.1"
   },
