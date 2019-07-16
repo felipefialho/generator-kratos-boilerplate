@@ -1,6 +1,6 @@
 {
   "name": "generator-kratos-boilerplate",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Yeoman generator for Kratos Boilerplate.",
   "author": "Roberto Achar <robertoachar@gmail.com>, Felipe Fialho <hi@felipefialho.com>",
   "homepage": "https://github.com/felipefialho/generator-kratos-boilerplate#readme",
