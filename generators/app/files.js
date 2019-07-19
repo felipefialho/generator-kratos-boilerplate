@@ -32,8 +32,8 @@ module.exports = [
     destination: 'src/app.scss'
   },
   {
-    template: 'src/components/welcome/welcome.js.template',
-    destination: 'src/components/welcome/welcome.js'
+    template: 'src/components/welcome/index.js.template',
+    destination: 'src/components/welcome/index.js'
   },
   {
     template: 'src/components/welcome/welcome.pug.template',
