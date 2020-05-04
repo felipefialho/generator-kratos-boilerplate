@@ -96,7 +96,7 @@ const baseWebpack = {
       'process.env.WEBPACK_MODE': JSON.stringify(process.env.WEBPACK_MODE)
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['dist']
+      cleanAfterEveryBuildPatterns: ['dist']
     }),
     new HtmlWebpackPlugin({
       hash: true,
