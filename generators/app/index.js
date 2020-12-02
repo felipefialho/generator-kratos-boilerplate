@@ -115,7 +115,7 @@ module.exports = class extends Generator {
         'mini-css-extract-plugin',
         'node-sass',
         'offline-plugin',
-        "postcss",
+        'postcss',
         'postcss-font-magician',
         'postcss-loader',
         'postcss-modules',
